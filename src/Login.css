@@ -1,0 +1,20 @@
+.login__logo>img{
+    height: 150px;
+    object-fit: contain;
+}
+.login>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login>button{
+    width: 300px;
+    background-color: rgb(68, 158, 236);
+    color: white;
+    font-weight: 800;
+}
